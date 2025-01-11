@@ -1,10 +1,7 @@
 import React from "react";
+import Main from "./components/Main";
 import "./App.css";
 
 export default function App() {
-  return (
-    <div>
-      <h1>Hello, React!</h1>
-    </div>
-  );
+  return ( <Main /> );
 }
